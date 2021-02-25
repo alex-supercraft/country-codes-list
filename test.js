@@ -11,6 +11,7 @@ function groupBy (key, array, transformValue) {
   };
 
 const countryCodes = require('./index')
+
 const tinTypes = countryCodes.customArray(
     { value: '{tinType}', name: '{countryNameEn}' },
     {
@@ -20,5 +21,6 @@ const tinTypes = countryCodes.customArray(
 
 const finalTinTypes = {}
 
+console.log(countryCodes.filter('countryCode', 'VE'))
 
-  console.log('tinTypes', JSON.stringify(countryCodes.utils.groupBy('value', tinTypes, tinType => tinType.name), null, 2))
+// console.log('tinTypes', JSON.stringify(countryCodes.utils.groupBy('value', tinTypes, tinType => tinType.name), null, 2))

@@ -1,4 +1,5 @@
-# country-codes-list
+# countrycodes.js
+
 Module with list of codes per country, which includes:
 
 - Country code (ISO 3166-1 alpha-2): Obtained from [Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)

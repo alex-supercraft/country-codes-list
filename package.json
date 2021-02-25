@@ -1,6 +1,6 @@
 {
-  "name": "country-codes-list",
-  "version": "1.5.3",
+  "name": "countrycodes.js",
+  "version": "1.0.0",
   "description": "List of codes per country (languages, calling codes, currency codes, etc)",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LucianoGanga/country-codes.git"
+    "url": "git+https://github.com/alex-supercraft/countrycodes.js.git"
   },
   "keywords": [
     "country",
@@ -27,10 +27,10 @@
     "phone",
     "codes"
   ],
-  "author": "Luciano Andrés Ganga Carabante",
+  "author": "Alexander Rodríguex <alexandersupercraft@gmail.com> (https://github.com/alex-supercraft)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LucianoGanga/country-codes/issues"
+    "url": "https://github.com/alex-supercraft/countrycodes.js/issues"
   },
-  "homepage": "https://github.com/LucianoGanga/country-codes#readme"
+  "homepage": "https://github.com/alex-supercraft/countrycodes.js#readme"
 }
